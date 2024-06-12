@@ -89,7 +89,7 @@ body {
         background-position: top;
         background-size: 100% 100%;
         padding: 0 10px 0 10px;
-        margin: 30px;
+        margin: 10px;
     }
 }
 
@@ -172,10 +172,6 @@ body {
     background-color: rgb(224, 85, 236);
 }
 
-#no-there {
-    display: none !important;
-}
-
 @media screen and (max-width:590px) {
     #todolist {
         width: 340px;
@@ -188,6 +184,10 @@ body {
         text-align: center;
         margin: auto !important
     }
+}
+
+#no-there {
+    display: none !important;
 }
 
 .Border {
