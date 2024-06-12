@@ -89,6 +89,7 @@ body {
         background-position: top;
         background-size: 100% 100%;
         padding: 0 10px 0 10px;
+        margin: 30px;
     }
 }
 
@@ -177,7 +178,7 @@ body {
 
 @media screen and (max-width:590px) {
     #todolist {
-        width: 360px;
+        width: 340px;
     }
     .left-items,
     #clear {
