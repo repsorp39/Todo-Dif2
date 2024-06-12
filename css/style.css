@@ -145,8 +145,8 @@ body {
 }
 
 .asCompleted {
-  opacity: 0.2;
-  text-decoration: line-through 3px rgb(179, 179, 179);
+  opacity: 0.4;
+  text-decoration: line-through 1px rgb(150, 150, 150);
 }
 
 .Completed {
@@ -157,13 +157,13 @@ body {
   background-color: rgb(224, 85, 236);
 }
 
-.no-there {
+#no-there {
   display: none !important;
 }
 
 @media screen and (max-width: 590px) {
   #todolist {
-    width: 340px;
+    width: 360px;
   }
   .left-items,
   #clear {

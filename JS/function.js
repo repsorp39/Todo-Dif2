@@ -202,7 +202,7 @@ function deleteAchieved()
     {
         closeIcon[g].addEventListener('click' ,()=>
         {
-            mytasks[g].classList.add('no-there');
+            mytasks[g].id='no-there';
             taskNumber[g].classList.add('asCompleted');
             resetItems();
         })
